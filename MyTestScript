@@ -1,6 +1,6 @@
 Jenkinsfile (Declarative Pipeline)
 pipeline {
-    agent { image 'node:6.3'  }
+    agent { image 'node:10.7.0'  }
     stages {
         stage('build') {
             steps {
